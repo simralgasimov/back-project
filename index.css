@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@400;600;700&family=Open+Sans:wght@400;600;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  z-index: 0;
+  padding: 32px 145px 63px 100px;
+  min-height: 100vh;
+  width: auto;
+  background-image: url("./canyon-1740973_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.container .navbar .logo {
+  width: 76px;
+  color: #fff;
+  text-align: center;
+  font-family: Laila;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.5%; /* 24.6px */
+}
+
+.container .navbar .menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.container .navbar .menu ul li {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+
+.container .navbar .icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .navbar .icon .star {
+  margin-right: 36px;
+  width: 36px;
+  height: 36px;
+}
+.container .navbar .icon .user {
+  width: 48px;
+  height: 48px;
+}
+
+.container .box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container .box h1 {
+  width: 779px;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 250px;
+}
+
+.container .text-box {
+  margin-top: 57px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container .text-box p {
+  width: 568px;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container .button {
+  border: none;
+  width: 214px;
+  height: 60px;
+  border-radius: 10px;
+  background: #00a651;
+  display: flex;
+  margin: auto;
+  margin-top: 52px;
+}
+
+.container .button a {
+  /* display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; */
+  margin: auto;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container-2 {
+  padding: 200px 145px 88px 145px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.81) 0%,
+    rgba(72, 72, 72, 0) 31.25%,
+    rgba(158, 158, 158, 0) 77.6%,
+    #fff 85.42%
+  );
+}
+
+.container-2 h2 {
+  margin-bottom: 63px;
+  /* display: flex;
+        text-align: center;
+        justify-content: center; */
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-2 .services {
+  display: flex;
+  /* margin: auto; */
+  justify-content: space-between;
+}
+
+.container-2 .services .ticket {
+  padding: 44px 50px 20px 38px;
+  /* width: 416px;
+height: 232px; */
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+
+.container-2 .services .ticket h1 {
+  margin-top: 30px;
+  margin-bottom: 13px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-2 .services .ticket p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-2 .services .hotel {
+  padding: 35px 51px 20px 46px;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container-2 .services .hotel h1 {
+  margin-top: 36px;
+  margin-bottom: 16px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-2 .services .hotel p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-2 .services .tour {
+  padding: 39px 46px 20px 41px;
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+
+.container-2 .services .tour h1 {
+  margin-top: 36px;
+  margin-bottom: 19px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container-2 .services .tour p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
