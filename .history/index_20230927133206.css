@@ -6,49 +6,37 @@
 }
 
 .container {
+  /* position: relative;
+  z-index: 0; */
+  /* padding: 32px 145px 63px 100px; */
   min-height: 100vh;
-  width: 100%;
+  width: auto;
+  background-image: url("./canyon-1740973_640.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-a {
-  text-decoration: none;
-}
+
 .container .navbar {
   width: 100%;
   padding: 20px 135px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* margin: auto; */
   position: fixed;
   top: 0;
   background-color: black;
 }
-.container-1 {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: url("./canyon-1740973_640.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
+
 .container .navbar .logo {
+  width: 76px;
   color: #fff;
   text-align: center;
   font-family: Laila;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 102.5%;
-}
-.container .navbar .logo span {
-  display: block;
-  color: #fff;
-  font-family: Laila;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 102.5%;
+  line-height: 102.5%; /* 24.6px */
 }
 
 .container .navbar .menu ul {
@@ -97,6 +85,7 @@ a {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-top: 250px;
 }
 
 .container .text-box {
@@ -105,7 +94,7 @@ a {
   justify-content: center;
   text-align: center;
 }
-.container .container-1 main p {
+.container .container-1  p {
   width: 568px;
   color: #fff;
   text-align: center;
@@ -116,19 +105,23 @@ a {
   line-height: normal;
 }
 
-.container .container-1 button {
+.container  .button {
   border: none;
   width: 214px;
   height: 60px;
   border-radius: 10px;
   background: #00a651;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   margin-top: 52px;
 }
 
-.container button a {
+.container .button a {
+  /* display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; */
+  margin: auto;
   text-decoration: none;
   color: #fff;
   text-align: center;
@@ -152,6 +145,9 @@ a {
 
 .container-2 h2 {
   margin-bottom: 63px;
+  /* display: flex;
+        text-align: center;
+        justify-content: center; */
   color: #000;
   text-align: center;
   font-family: Open Sans;
@@ -163,17 +159,19 @@ a {
 
 .container-2 .services {
   display: flex;
+  /* margin: auto; */
   justify-content: space-between;
 }
 
-.container-2 .services .list {
-  width: 32%;
+.container-2 .services .ticket {
   padding: 44px 50px 20px 38px;
+  /* width: 416px;
+height: 232px; */
   border-radius: 15px;
   background: #f9f9f9;
 }
 
-.container-2 .services .list h1 {
+.container-2 .services .ticket h1 {
   margin-top: 30px;
   margin-bottom: 13px;
   color: #000;
@@ -185,7 +183,7 @@ a {
   line-height: normal;
 }
 
-.container-2 .services .list p {
+.container-2 .services .ticket p {
   color: #000;
   font-family: Open Sans;
   font-size: 16px;
@@ -195,11 +193,55 @@ a {
 }
 
 .container-2 .services .hotel {
+  padding: 35px 51px 20px 46px;
+  border-radius: 15px;
+  background: #fff;
   box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
-.container .container-1 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container-2 .services .hotel h1 {
+  margin-top: 36px;
+  margin-bottom: 16px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container-2 .services .hotel p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-2 .services .tour {
+  padding: 39px 46px 20px 41px;
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+
+.container-2 .services .tour h1 {
+  margin-top: 36px;
+  margin-bottom: 19px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container-2 .services .tour p {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

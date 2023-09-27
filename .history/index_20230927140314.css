@@ -39,7 +39,7 @@ a {
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 102.5%;
+  line-height: 102.5%; 
 }
 .container .navbar .logo span {
   display: block;
@@ -167,7 +167,7 @@ a {
 }
 
 .container-2 .services .list {
-  width: 32%;
+  w
   padding: 44px 50px 20px 38px;
   border-radius: 15px;
   background: #f9f9f9;
